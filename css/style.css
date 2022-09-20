@@ -178,13 +178,15 @@ header{
 
 
 .row{
-    padding: 50px;
+    padding: 50px 0;
     display: flex;
 }
 
 .col-big{
     width: 60%;
+    margin left: 10px;
     display: flex;
+    
 }
 
 .col-big img {
@@ -194,9 +196,8 @@ header{
 }
 .col-small{
     width: 40%;
-    padding-top: 25px;
-    margin-left: 30px;
-    justify-content: center;
+    padding: 25px;
+    text-align: left;
 }
 
 .col-main-bottom{
