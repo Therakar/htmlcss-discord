@@ -9,7 +9,7 @@
 /* DEBUG */
 
 .debug .col-main-bottom{
-    background-color: #228B22;
+    
     height: 900px;
 }
 
@@ -184,7 +184,7 @@ header{
 
 .col-big{
     width: 60%;
-    margin left: 10px;
+    margin-left: 10px;
     display: flex;
     
 }
