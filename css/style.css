@@ -8,25 +8,6 @@
 
 /* DEBUG */
 
-
-.debug .header-top {
-    background-color: #ADD8E6;
-}
-
-.debug .header-bottom{
-    background-color: #00008B;
-}
-
-.debug .col-logo{
-    background-color: #DAA520;
-    height: 50px;
-}
-
-.debug .col-header{
-    background-color: #EE82EE;
-    height: 400px;
-}
-
 .debug .col-big{
     background-color: #1E90FF;
     height: 500px;
@@ -59,6 +40,7 @@
     background-color: #7FFFD4;
     height: 80px;
 }
+
 /* COMMON */
 .container{
     max-width: 1200px;
@@ -69,12 +51,74 @@ main section:nth-child(2n){
     background-color: #D3D3D3;
 }
 
+/* TIPOGRAPHY */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2{
+    font-size: 50px;
+    font-style: bold;
+}
+
+p{
+    font-size: 20px;
+    padding-top: 50px;
+    line-height: 1.8;
+}
+
+/* BUTTONS */
+
+.btn{
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 7px 16px;
+    border: none;
+    margin: 10px;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.btn-big{
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    margin-top: 30px;
+}
+
+.btn-browser{
+    background-color: #23272a;
+    color: white;
+}
+
+.btn-browser:hover{
+    opacity: 0.8
+}
+
+.btn-mac:hover{
+    color: #628CF7;
+}
 /* HEADER */
+
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
 .header-top{
     padding: 15px 0;
 }
 
+.col-header{
+    text-align: center;
+    min-height: 400px;
+}
 .logo, .login {
     width: 20%;
     padding: 0 5px;
@@ -90,11 +134,17 @@ main section:nth-child(2n){
 }
 .main-nav ul li {
     margin: 0 10px;
+    padding: 0 15px;
 }
-.main-nav ul li a {
+a {
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
+
+a:hover{
+    text-decoration: underline;
+}
+
 .login {
     text-align: right;
 }
@@ -124,6 +174,8 @@ main section:nth-child(2n){
 .col-header{
     max-width: 900px;
     margin: auto;
+    color: white;
+    padding-top: 100px;
 }
 
 /* MAIN */
@@ -159,50 +211,5 @@ main section:nth-child(2n){
 .col-footer-bottom{
     width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-
-/* LINEE TRATTEGGIATE */
-
-
-.col-logo{
-    border-style: dashed;
-    border-color: black
-}
-
-.col-header{
-    border-style: dashed;
-    border-color: black
-}
-
-.col-small{
-    border-style: dashed;
-    border-color: black
-}
-
-.col-main-bottom{
-    border-style: dashed;
-    border-color: black
-}
-
-.col-big{
-    border-style: dashed;
-    border-color: black
-}
-
-.col-big-foot:first-child{
-    border-style: dashed;
-    border-color: black;
-}
-
-.col-small-foot{
-    border-style: dashed;
-    border-color: white;
-}
-
-.col-footer-bottom>*{
-    border-style: dashed;
-    border-color: black;
-    background-color: #FFC0CB;
 }
