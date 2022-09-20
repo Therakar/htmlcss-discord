@@ -8,11 +8,6 @@
 
 /* DEBUG */
 
-.debug .col-main-bottom{
-    
-    height: 900px;
-}
-
 .debug .col-big-foot{
     background-color: #FFC0CB;
     height: 580px;
@@ -60,6 +55,11 @@ h1, h2{
     font-style: bold;
 }
 
+h3{
+    font-size: 30px;
+    padding: 10px 0;
+}
+
 p{
     font-size: 20px;
     padding-top: 30px;
@@ -102,8 +102,17 @@ button:hover {
     opacity: 0.8
 }
 
-.btn-mac:hover{
+.btn-mac-top:hover{
     color: #628CF7;
+}
+
+.btn-mac-bottom{
+    background-color: #628CF7;
+    color: white;
+}
+
+.btn-mac-bottom:hover{
+    opacity: 0.8
 }
 /* HEADER */
 
@@ -202,6 +211,15 @@ header{
 
 .col-main-bottom{
     width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+
+.col-main-bottom img {
+
+    min-width: 100%;
+    min-height: 60%;
 }
 
 /* FOOTER */
